@@ -1,6 +1,8 @@
 # SnowInv
 
-## Disk Load
+We can invert vertical displacement of the Earth's surface for distribution of snow loading in the Sierras. This gives a method of better constraining SWE distribution in California, something which is poorly know.
+
+## Forward Model
 
 For a disk load of unit weight (force), the solution from Farrell 72 is:
     
@@ -16,5 +18,5 @@ u(0,r) =
 
 where $E(x)$ and $K(x)$ are the complete elliptic integrals, which are a special function commonly tabulated (and included in scipy). As for constants, $\mu$ is the shear modulus, $\lambda$ is Lame's first parameter, $\eta = \mu + \lambda$ and $\alpha$ is the disk radius.
 
-This scenario is also derived in Contact Mechanics, in terms of Young's Modulus and Poisson's Ratio, but I haven't gone through it in detail. The relationship between YM, Poisson's Ratio and Lame Parameters amongst more is here:
+This scenario is also derived in Contact Mechanics, in terms of Young's Modulus and Poisson's Ratio, but I haven't gone through it in detail. The relationship between YM, Poisson's Ratio and Lame Parameters amongst more can be found on SubSurfaceWiki eg: http://subsurfwiki.org/wiki/1st_Lam%C3%A9_parameter.
 
