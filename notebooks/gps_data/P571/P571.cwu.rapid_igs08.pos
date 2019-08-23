@@ -1,0 +1,44 @@
+PBO Station Position Time Series. Reference Frame : IGS08
+Format Version: 1.1.0
+4-character ID: P571
+Station name  : SpringvillCS2005
+First Epoch   : 20190728 120000
+Last Epoch    : 20190803 120000
+Release Date  : 20190817 185205
+XYZ Reference position :  -2479181.36136 -4515826.25388  3749471.09379 (IGS08)
+NEU Reference position :    36.2313660662  241.2332846157  914.20217 (IGS08/WGS84)
+Start Field Description
+YYYYMMDD      Year, month, day for the given position epoch
+HHMMSS        Hour, minute, second for the given position epoch
+JJJJJ.JJJJJ   Modified Julian day for the given position epoch
+X             X coordinate, Specified Reference Frame, meters
+Y             Y coordinate, Specified Reference Frame, meters
+Z             Z coordinate, Specified Reference Frame, meters
+Sx            Standard deviation of the X position, meters
+Sy            Standard deviation of the Y position, meters
+Sz            Standard deviation of the Z position, meters
+Rxy           Correlation of the X and Y position
+Rxz           Correlation of the X and Z position
+Ryz           Correlation of the Y and Z position
+Nlat          North latitude, WGS-84 ellipsoid, decimal degrees
+Elong         East longitude, WGS-84 ellipsoid, decimal degrees
+Height (Up)   Height relative to WGS-84 ellipsoid, m
+dN            Difference in North component from NEU reference position, meters
+dE            Difference in East component from NEU reference position, meters
+du            Difference in vertical component from NEU reference position, meters
+Sn            Standard deviation of dN, meters
+Se            Standard deviation of dE, meters
+Su            Standard deviation of dU, meters
+Rne           Correlation of dN and dE
+Rnu           Correlation of dN and dU
+Reu           Correlation of dEand dU
+Soln          "rapid", "final", "suppl/suppf", "campd", or "repro" corresponding to products  generated with rapid or final orbit products, in supplemental processing, campaign data processing or reprocessing
+End Field Description
+*YYYYMMDD HHMMSS JJJJJ.JJJJ         X             Y             Z            Sx        Sy       Sz     Rxy   Rxz    Ryz            NLat         Elong         Height         dN        dE        dU         Sn       Se       Su      Rne    Rnu    Reu  Soln
+ 20190728 120000 58692.5000 -2479181.55827 -4515826.15612  3749471.09175  0.00311  0.00520  0.00419  0.831 -0.765 -0.839      36.2313660031  241.2332821727  914.20828    -0.00702  -0.21937   0.00611    0.00190  0.00154  0.00695 -0.006 -0.122  0.008 rapid
+ 20190729 120000 58693.5000 -2479181.55882 -4515826.16330  3749471.09658  0.00320  0.00530  0.00431  0.837 -0.766 -0.842      36.2313660033  241.2332822058  914.21642    -0.00700  -0.21640   0.01425    0.00193  0.00155  0.00713  0.017 -0.114 -0.009 rapid
+ 20190730 120000 58694.5000 -2479181.55816 -4515826.16224  3749471.09603  0.00316  0.00525  0.00426  0.831 -0.761 -0.837      36.2313660059  241.2332822066  914.21509    -0.00671  -0.21633   0.01292    0.00194  0.00156  0.00704  0.007 -0.115 -0.003 rapid
+ 20190731 120000 58695.5000 -2479181.56110 -4515826.16651  3749471.09707  0.00317  0.00525  0.00425  0.825 -0.762 -0.840      36.2313659860  241.2332822008  914.21987    -0.00893  -0.21685   0.01770    0.00191  0.00159  0.00704  0.003 -0.114  0.000 rapid
+ 20190801 120000 58696.5000 -2479181.56074 -4515826.16638  3749471.09748  0.00310  0.00519  0.00418  0.832 -0.766 -0.839      36.2313659905  241.2332822036  914.21988    -0.00842  -0.21659   0.01771    0.00188  0.00153  0.00693 -0.004 -0.123  0.007 rapid
+ 20190802 120000 58697.5000 -2479181.55974 -4515826.16481  3749471.09781  0.00315  0.00519  0.00423  0.827 -0.758 -0.838      36.2313660028  241.2332822049  914.21858    -0.00705  -0.21648   0.01641    0.00191  0.00158  0.00698  0.017 -0.105 -0.008 rapid
+ 20190803 120000 58698.5000 -2479181.55861 -4515826.15931  3749471.09451  0.00311  0.00517  0.00418  0.832 -0.764 -0.837      36.2313660073  241.2332821865  914.21230    -0.00655  -0.21813   0.01012    0.00190  0.00154  0.00692 -0.002 -0.120 -0.002 rapid

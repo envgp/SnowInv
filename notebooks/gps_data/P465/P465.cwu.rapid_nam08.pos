@@ -1,0 +1,52 @@
+PBO Station Position Time Series. Reference Frame : NAM08
+Format Version: 1.1.0
+4-character ID: P465
+Station name  : HorseshoeMCS2007
+First Epoch   : 20190807 120000
+Last Epoch    : 20190821 120000
+Release Date  : 20190822 200445
+XYZ Reference position :  -2422489.27428 -4530744.68125  3771700.01959 (NAM08)
+NEU Reference position :    36.4668343519  241.8675666849 2901.55390 (NAM08/WGS84)
+Start Field Description
+YYYYMMDD      Year, month, day for the given position epoch
+HHMMSS        Hour, minute, second for the given position epoch
+JJJJJ.JJJJJ   Modified Julian day for the given position epoch
+X             X coordinate, Specified Reference Frame, meters
+Y             Y coordinate, Specified Reference Frame, meters
+Z             Z coordinate, Specified Reference Frame, meters
+Sx            Standard deviation of the X position, meters
+Sy            Standard deviation of the Y position, meters
+Sz            Standard deviation of the Z position, meters
+Rxy           Correlation of the X and Y position
+Rxz           Correlation of the X and Z position
+Ryz           Correlation of the Y and Z position
+Nlat          North latitude, WGS-84 ellipsoid, decimal degrees
+Elong         East longitude, WGS-84 ellipsoid, decimal degrees
+Height (Up)   Height relative to WGS-84 ellipsoid, m
+dN            Difference in North component from NEU reference position, meters
+dE            Difference in East component from NEU reference position, meters
+du            Difference in vertical component from NEU reference position, meters
+Sn            Standard deviation of dN, meters
+Se            Standard deviation of dE, meters
+Su            Standard deviation of dU, meters
+Rne           Correlation of dN and dE
+Rnu           Correlation of dN and dU
+Reu           Correlation of dEand dU
+Soln          "rapid", "final", "suppl/suppf", "campd", or "repro" corresponding to products  generated with rapid or final orbit products, in supplemental processing, campaign data processing or reprocessing
+End Field Description
+*YYYYMMDD HHMMSS JJJJJ.JJJJ         X             Y             Z            Sx        Sy       Sz     Rxy   Rxz    Ryz            NLat         Elong         Height         dN        dE        dU         Sn       Se       Su      Rne    Rnu    Reu  Soln
+ 20190807 120000 58702.5000 -2422489.31687 -4530744.61994  3771700.07327  0.00327  0.00586  0.00454  0.829 -0.782 -0.837      36.4668349227  241.8675659436 2901.55847     0.06354  -0.06636   0.00457    0.00206  0.00166  0.00766 -0.114 -0.181  0.077 rapid
+ 20190808 120000 58703.5000 -2422489.32063 -4530744.62470  3771700.07461  0.00328  0.00577  0.00454  0.832 -0.775 -0.840      36.4668349004  241.8675659317 2901.56407     0.06106  -0.06743   0.01017    0.00204  0.00163  0.00760 -0.062 -0.159  0.051 rapid
+ 20190809 120000 58704.5000 -2422489.31647 -4530744.62305  3771700.07409  0.00324  0.00569  0.00451  0.830 -0.770 -0.838      36.4668349150  241.8675659639 2901.56101     0.06268  -0.06454   0.00711    0.00204  0.00162  0.00751 -0.054 -0.146  0.052 rapid
+ 20190810 120000 58705.5000 -2422489.32197 -4530744.62821  3771700.07793  0.00319  0.00568  0.00451  0.829 -0.771 -0.835      36.4668349046  241.8675659370 2901.56905     0.06152  -0.06695   0.01515    0.00205  0.00161  0.00748 -0.079 -0.137  0.071 rapid
+ 20190811 120000 58706.5000 -2422489.31721 -4530744.62363  3771700.07638  0.00315  0.00558  0.00439  0.826 -0.770 -0.838      36.4668349269  241.8675659597 2901.56307     0.06401  -0.06491   0.00917    0.00199  0.00160  0.00734 -0.068 -0.154  0.067 rapid
+ 20190812 120000 58707.5000 -2422489.31593 -4530744.61980  3771700.07259  0.00337  0.00580  0.00456  0.819 -0.769 -0.842      36.4668349209  241.8675659521 2901.55762     0.06333  -0.06559   0.00372    0.00204  0.00173  0.00766 -0.045 -0.165  0.026 rapid
+ 20190813 120000 58708.5000 -2422489.31805 -4530744.62464  3771700.07520  0.00316  0.00562  0.00440  0.823 -0.769 -0.833      36.4668349116  241.8675659567 2901.56340     0.06230  -0.06518   0.00950    0.00202  0.00162  0.00736 -0.084 -0.163  0.071 rapid
+ 20190814 120000 58709.5000 -2422489.31751 -4530744.62130  3771700.07353  0.00316  0.00558  0.00439  0.824 -0.774 -0.840      36.4668349166  241.8675659445 2901.55984     0.06286  -0.06628   0.00594    0.00197  0.00161  0.00735 -0.075 -0.155  0.059 rapid
+ 20190815 120000 58710.5000 -2422489.31845 -4530744.62327  3771700.07633  0.00313  0.00559  0.00438  0.825 -0.773 -0.837      36.4668349252  241.8675659456 2901.56325     0.06382  -0.06618   0.00935    0.00198  0.00160  0.00733 -0.086 -0.158  0.078 rapid
+ 20190816 120000 58711.5000 -2422489.31721 -4530744.62267  3771700.07632  0.00324  0.00571  0.00447  0.827 -0.775 -0.843      36.4668349311  241.8675659547 2901.56235     0.06447  -0.06537   0.00845    0.00199  0.00164  0.00750 -0.066 -0.165  0.059 rapid
+ 20190817 120000 58712.5000 -2422489.31945 -4530744.62370  3771700.07535  0.00321  0.00572  0.00446  0.828 -0.776 -0.841      36.4668349135  241.8675659380 2901.56336     0.06252  -0.06686   0.00946    0.00200  0.00163  0.00750 -0.080 -0.169  0.074 rapid
+ 20190818 120000 58713.5000 -2422489.31792 -4530744.62358  3771700.07585  0.00317  0.00561  0.00437  0.829 -0.776 -0.839      36.4668349216  241.8675659525 2901.56299     0.06341  -0.06556   0.00909    0.00198  0.00160  0.00736 -0.077 -0.174  0.057 rapid
+ 20190819 120000 58714.5000 -2422489.32069 -4530744.62833  3771700.07959  0.00321  0.00564  0.00438  0.828 -0.780 -0.841      36.4668349193  241.8675659501 2901.56963     0.06315  -0.06577   0.01573    0.00197  0.00162  0.00740 -0.081 -0.180  0.045 rapid
+ 20190820 120000 58715.5000 -2422489.31748 -4530744.62294  3771700.07469  0.00316  0.00560  0.00440  0.827 -0.774 -0.840      36.4668349173  241.8675659534 2901.56168     0.06294  -0.06548   0.00778    0.00198  0.00160  0.00737 -0.073 -0.158  0.064 rapid
+ 20190821 120000 58716.5000 -2422489.31928 -4530744.62567  3771700.07720  0.00317  0.00563  0.00442  0.828 -0.774 -0.841      36.4668349181  241.8675659500 2901.56578     0.06302  -0.06578   0.01188    0.00198  0.00160  0.00740 -0.071 -0.158  0.069 rapid
