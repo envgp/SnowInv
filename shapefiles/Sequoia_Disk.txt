@@ -1,0 +1,4 @@
+# Definition of the Sequoia Disk for the Highly Simplified Real World Problem
+
+lat	lon	radius(km)
+36.519259	-118.468888	30
